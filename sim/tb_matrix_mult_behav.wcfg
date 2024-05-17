@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_matrix_mult_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_matrix_mult" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="414,996 ps"></ZoomStartTime>
+      <ZoomEndTime time="415,001 ps"></ZoomEndTime>
+      <Cursor1Time time="415,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <ValueColumnWidth column_width="190"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/tb_matrix_mult/A" type="array">
+      <obj_property name="ElementShortName">A[71:0]</obj_property>
+      <obj_property name="ObjectShortName">A[71:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matrix_mult/B" type="array">
+      <obj_property name="ElementShortName">B[71:0]</obj_property>
+      <obj_property name="ObjectShortName">B[71:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matrix_mult/C" type="array">
+      <obj_property name="ElementShortName">C[71:0]</obj_property>
+      <obj_property name="ObjectShortName">C[71:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matrix_mult/Clock" type="logic">
+      <obj_property name="ElementShortName">Clock</obj_property>
+      <obj_property name="ObjectShortName">Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matrix_mult/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matrix_mult/Enable" type="logic">
+      <obj_property name="ElementShortName">Enable</obj_property>
+      <obj_property name="ObjectShortName">Enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matrix_mult/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matrix_mult/matC" type="array">
+      <obj_property name="ElementShortName">matC[2:0][2:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">matC[2:0][2:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matrix_mult/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matrix_mult/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_matrix_mult/Clock_period" type="array">
+      <obj_property name="ElementShortName">Clock_period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Clock_period[31:0]</obj_property>
+   </wvobject>
+</wave_config>
